@@ -19,9 +19,9 @@ const App = () => {
   return (
     <div>
       <center>
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title">TodoList App</h3>
+        <div className="card">
+          <div className="card-body">
+            <h3 className="card-title">TodoList App</h3>
             <form onSubmit={submitHandler}>
               <input type="text" value={task} onChange={changeHandler}/>&nbsp;&nbsp;
               <input type="submit" value="add" name="add" />
